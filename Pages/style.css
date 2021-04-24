@@ -9,4 +9,19 @@ body {
   }
 
   /* nav bar */
-  
+  .navbar {
+    max-height: 50px;
+  }
+  .navigation .navbar-brand {
+    color: cornflowerblue;
+    margin-left: 0px;
+    padding: inherit;
+    font-weight: normal;
+    background-color: white;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+  }
+  .navbar {
+    background-color: white;
+    font-size: 25px; 
+ 
+  }
