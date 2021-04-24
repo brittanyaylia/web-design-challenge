@@ -47,7 +47,7 @@ a {
     height:70% !important;
   }
   
-  /* Title */
+  /* title */
   .title {
     color:cornflowerblue;
     font-family: "American Typewriter", serif;
@@ -55,14 +55,14 @@ a {
     padding-top: 10px;
   }
   
-  /* Paragraph */
+  /* paragraph */
   p {
   color: gray;
   font-family: "American Typewriter", serif;
   font-size: 15px;
   }
   
-  /* Box */
+  /* box */
   .box {
     margin-top: 50px;
     margin-bottom: 60px;
@@ -70,3 +70,22 @@ a {
     color: cornflowerblue;
     background-color: white;
   }
+
+  /* footer */
+footer {
+    background-color:cornflowerblue;
+    border-top-style: solid;
+    border-top-width: 5px;
+    border-top-color:whitesmoke;
+    color: white;
+    min-height: 60px;
+    font-family: "American Typewriter", serif;
+    font-size: 12px;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-top: 15px;
+    }
+    
