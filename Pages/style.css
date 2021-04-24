@@ -94,4 +94,6 @@ footer {
     font-size: 12px;
     font-family: "American Typewriter", serif;
     border-top-color: white !important;
+    color: cornflowerblue;
+    background-color: white;
   }
