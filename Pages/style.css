@@ -13,11 +13,11 @@ body {
     max-height: 50px;
   }
   .navigation .navbar-brand {
-    color: cornflowerblue;
+    color: whitesmoke;
     margin-left: 0px;
     padding: inherit;
     font-weight: normal;
-    background-color: whitesmoke;
+    background-color: cornflowerblue;
     font-family: "American Typewriter", serif;
   }
   .navbar {
