@@ -17,13 +17,13 @@ body {
     margin-left: 0px;
     padding: inherit;
     font-weight: normal;
-    background-color: white;
+    background-color: whitesmoke;
     font-family: "American Typewriter", serif;
   }
   .navbar {
-    background-color: white;
+    background-color: whitesmoke;
     font-size: 12px; 
- 
+    font-family: "American Typewriter", serif;
   }
 
 
@@ -43,15 +43,15 @@ a {
     
   }
   .vizualization {
-    width:50% !important;
-    height:50% !important;
+    width:70% !important;
+    height:70% !important;
   }
   
   /* Title */
   .title {
     color:cornflowerblue;
     font-family: "American Typewriter", serif;
-    font-weight: bold;
+    font-weight: normal;
     padding-top: 10px;
   }
   
