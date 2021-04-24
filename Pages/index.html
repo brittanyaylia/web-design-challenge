@@ -42,58 +42,45 @@
             </div>
         </nav>
     </div>
-<!-- dashboard -->
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-7 col-md-12">
-                <!-- left side -->
-                <div class="box" style="padding-bottom: 20px;">
-                    <h3 class="title">Latitude vs. X</h3>
-                    <hr>
-                    <img src="../Resources/assets/images/Fig1.png" class="vizualization rounded float-left" alt="lat vs. temperature">
-                    <p> The purpose of this project was to analyze how weather changes as you get closer to the equator. 
-                    To accomplish this analysis, wefirst pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
-                    <p> After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. 
-                    Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and
-                    visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
-                </div>
-            </div>
-            <div class="col-lg-5 col-md-12">
 
-                <!-- right side -->
-                <div class="box">
-                    <h3 class="title">Visualizations</h3>
+<!-- dashboard -->
+    <div class = "container">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+
+                    <h2>Latitude vs X</h2>
                     <hr>
-                    <div class="container">
-                        <div class="row" style="padding-bottom: 30px;">
-                            <div class="col-6">
-                                <a href="temperature.html">
-                                <img class="panel" src="../Resources/assets/images/Fig1.png" alt="Max Temperature visualization">
-                                </a>
-                            </div>
-                            <div class="col-6">
-                                <a href="humidity.html">
-                                <img class="panel" src="../Resources/assets/images/Fig2.png" alt="Humidity visualization">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="row" style="padding-bottom: 30px;">
-                            <div class="col-6">
-                                <a href="cloudiness.html">
-                                <img class="panel" src="../Resources/assets/images/Fig3.png" alt="Cloudiness visualization">
-                                </a>
-                            </div>
-                            <div class="col-6">
-                                <a href="wind.html">
-                                    <img class="panel" src="../Resources/assets/images/Fig4.png" alt="Wind Speed visualization">
-                                </a>
-                            </div>
-                        </div>
+                    <img class="first image" src="../Resources/assets/images/Fig1.png" alt="Max Temperature visualization">
+                    <p class = "text">This is an analysis and visualization of weather of 500+ cities across the world. The main objective of the analysis was to see the correlation between factors like temperature, humidity, cloudiness , wind speed and Latitude. <br> 
+                A weather check was performed on each  of the unique cities using a series of successive API calls from OpenWeatherMap. Then all the different point of interests were plotted against latitude using Matplotlib.
+                <br> 
+                The analysis shows that an equatorial climate is depicted by higher temperature and humidity. There is no conclusive correlation between wind speed and the distance from the equator.The clouds seem to be concentrated equally near the equator and the tropics.However, the higher humidity near the equator gives an indication of the possiblity of the clouds being the of the type "cumulonimbus".</p>
+                    <br>        
                     </div>
                 </div>
             </div>
-        </div>
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                        <div class="panel-body">                                    
+                            <h2>Visualizations</h2>
+                            <hr>
+
+                            <div class="row" >
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="temperature.html"><img class = "img img-responsive" src="../Resources/assets/images/Fig1.png" style="width:100%" alt="temp visual"></a></div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="humidity.html"><img class = "img img-responsive" src="../Resources/assets/images/Fig2.png" style="width:100%" alt="humidity visual"></a></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="cloudiness.html"><img class = "img img-responsive" src="../Resources/assets/images/Fig3.png" style="width:100%" alt="cloudiness visual"></a></div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="wind.html"><img class = "img img-responsive" src="../Resources/assets/images/Fig4.png" style="width:100%" alt="wind visual"></a></div>
+                            </div>
+                                
+                        </div>
+                </div>     
+            </div>    
     </div>
+
   </main>
 
   <footer id="footer" class="footer footer-expand-md text-center">
