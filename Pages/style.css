@@ -75,7 +75,7 @@ a {
 footer {
     background-color:cornflowerblue;
     border-top-style: solid;
-    border-top-width: 2px;
+    border-top-width: 0px;
     border-top-color:whitesmoke;
     color: white;
     min-height: 50px;
