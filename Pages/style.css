@@ -57,7 +57,7 @@ a {
   
   /* paragraph */
   p {
-  color: gray;
+  color: white;
   font-family: "American Typewriter", serif;
   font-size: 15px;
   }
@@ -75,12 +75,12 @@ a {
 footer {
     background-color:cornflowerblue;
     border-top-style: solid;
-    border-top-width: 5px;
-    border-top-color:whitesmoke;
+    border-top-width: 1px;
+    border-top-color:white;
     color: white;
     min-height: 60px;
     font-family: "American Typewriter", serif;
-    font-size: 12px;
+    font-size: 10px;
     text-align: center;
     position: fixed;
     left: 0;
@@ -88,4 +88,3 @@ footer {
     width: 100%;
     padding-top: 15px;
     }
-    
