@@ -10,7 +10,7 @@
    <!-- css stylesheet -->
    <link rel="stylesheet" type="text/css" href="style.css">
 
-    <title>Latitude Dashboard</title> 
+    <title>Max Temperature</title> 
 </head> 
 
 <body> 
@@ -43,7 +43,53 @@
             </div>
         </nav>
     </div>
-    
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-7 col-md-12">
+                <!-- left -->
+                <div class="box" style="padding-bottom: 30px;">
+                    <h3 class="title">Latitude vs. Humidity </h3>
+                    <hr>
+                    <img src="../Resources/assets/images/Fig2.png"   class="vizualization rounded float-left" alt="humidity">
+                    <p>There seems to be little to no correlation between humidity and Latitude. However, a small grouping of cities exhibited abnormally low humity levels 
+                        (at 0% humidity) in the Northern Hemisphere at around 60° to 75° Latitude.</p>
+                </div>
+            </div>
+            <div class="col-lg-5 col-md-12">
+                <!-- right -->
+                <div class="box">
+                    <h3 class="title">Visualizations</h3>
+                    <hr>
+                    <div class="container">
+                        <div class="row" style="padding-bottom: 30px;">
+                            <div class="col-6">
+                                <a href="temperature.html">
+                                <img class="panel" src="../Resources/assets/images/Fig1.png" alt="temp">
+                                </a>
+                            </div>
+                            <div class="col-6">
+                                <a href="humidity.html">
+                                <img class="panel" src="../Resources/assets/images/Fig2.png" width="500" height="420" alt="humidity">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row" style="padding-bottom: 30px;">
+                            <div class="col-6">
+                                <a href="cloudiness.html">
+                                <img class="panel" src="../Resources/assets/images/Fig3.png" alt="cloudiness">
+                                </a>
+                            </div>
+                            <div class="col-6">
+                                <a href="wind.html">
+                                    <img class="panel" src="../Resources/assets/images/Fig4.png" alt="wind">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 
