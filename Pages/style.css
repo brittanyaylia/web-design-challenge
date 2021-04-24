@@ -57,7 +57,7 @@ a {
   
   /* paragraph */
   p {
-  color: white;
+  color: black;
   font-family: "American Typewriter", serif;
   font-size: 15px;
   }
@@ -68,7 +68,7 @@ a {
     margin-bottom: 60px;
     padding: 10px 30px 10px;
     color: cornflowerblue;
-    background-color: white;
+    background-color: cornflowerblue;
   }
 
   /* footer */
