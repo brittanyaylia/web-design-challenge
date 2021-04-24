@@ -10,7 +10,7 @@ body {
 
   /* nav bar */
   .navbar {
-    max-height: 100px;
+    max-height: 75px;
   }
   .navigation .navbar-brand {
     color: whitesmoke;
