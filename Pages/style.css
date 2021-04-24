@@ -98,4 +98,6 @@ footer {
     background-color: white;
     border-color: cornflowerblue;
     border-style: solid;
+    text-align: center;
+    position: fixed;
   }
